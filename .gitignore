@@ -1,0 +1,7 @@
+.pio/
+.vscode/
+.idea/
+*.pyc
+__pycache__/
+*.log
+*.bak
