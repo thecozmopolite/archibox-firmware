@@ -34,17 +34,17 @@
 #define FIRMWARE_VERSION  7
 
 // ── I2S Mic ─────────────────────────────────────────────────────────────────
-#define I2S_WS_PIN   7
-#define I2S_SCK_PIN  8
-#define I2S_SD_PIN   9
+#define I2S_WS_PIN   8    // D8 (WS / L/R)
+#define I2S_SCK_PIN  9    // D9 (SCK / CLOCK)
+#define I2S_SD_PIN   10   // D10 (SD / DOUT)
 #define I2S_PORT     I2S_NUM_0
 #define SAMPLE_RATE  16000
 
 // ── Bouton ───────────────────────────────────────────────────────────────────
-#define BTN_PIN  3   // GPIO3 = D2 sur XIAO, actif bas
+#define BTN_PIN  2   // GPIO2 = D2 sur XIAO, actif bas
 
 // ── LED ──────────────────────────────────────────────────────────────────────
-#define LED_PIN  LED_BUILTIN  // LED jaune près du USB-C
+#define LED_PIN  3    // LED jaune intégrée du XIAO (actif HIGH)
 
 // ── Device & Server ──────────────────────────────────────────────────────────
 #define DEVICE_ID       "xiao-esp32s3-01"
